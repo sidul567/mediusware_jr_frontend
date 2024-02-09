@@ -55,7 +55,7 @@ function CustomModal() {
     };
     console.log(page);
     fetchData();
-  }, [type]);
+  }, [type, page]);
 
   const handleOpenContactDetails = (result) => {
     setData({
